@@ -1,0 +1,8 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.back{
+    background-color:rgb(30, 237, 78);
+    height: 150px;
+}
