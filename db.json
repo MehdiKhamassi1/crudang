@@ -1,0 +1,73 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "firstName": "aze",
+      "lastName": "aeze",
+      "email": "azerty@gmail.com",
+      "id": "ab2e"
+    },
+    {
+      "id": "6857",
+      "firstName": "gg",
+      "lastName": "gg",
+      "email": "gg@gg.gg"
+    },
+    {
+      "firstName": "mehdi",
+      "lastName": "mehdi",
+      "email": "ff@gmail.com",
+      "id": "4984"
+    },
+    {
+      "id": "bb90",
+      "firstName": "za",
+      "lastName": "try",
+      "email": "mehdi@gmail.com"
+    },
+    {
+      "id": "5aba",
+      "firstName": "tyty",
+      "lastName": "ytuyuytu",
+      "email": "mehdi@gmail.com"
+    },
+    {
+      "id": "3c64",
+      "firstName": "ff",
+      "lastName": "jngdiff",
+      "email": "jngdiff@gmail.com"
+    },
+    {
+      "firstName": "Hello",
+      "lastName": "firstt",
+      "email": "fst@gmail.com",
+      "id": "f338"
+    }
+  ]
+}

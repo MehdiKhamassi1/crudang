@@ -13,10 +13,19 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { ReactiveFormsModule } from '@angular/forms';
+import {HttpClientModule } from '@angular/common/http';
+import {MatTableModule} from '@angular/material/table';
+import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { StatsComponent } from './stats/stats.component';
+import { PrintComponent } from './print/print.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    AddeditComponent
+    AddeditComponent,
+    StatsComponent,
+    PrintComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +39,10 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatInputModule,
     MatDatepickerModule,
     ReactiveFormsModule,
-    
+    HttpClientModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

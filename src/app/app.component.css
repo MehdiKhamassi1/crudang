@@ -3,6 +3,14 @@
   }
 
 .back{
-    background-color:rgb(30, 237, 78);
+    background-color:rgb(124, 225, 147);
     height: 150px;
+}
+
+.tablee{
+  margin:0 auto;
+}
+.filt{
+  display: flex;
+  width: 2000px;
 }
